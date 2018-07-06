@@ -45,7 +45,7 @@ Development Process for adding a student
 
 1.	Update list-student.jsp
 
-    a.	Create an add student button
+        a.	Create an add student button
 
 2.	Create a HTML form for new student
 
