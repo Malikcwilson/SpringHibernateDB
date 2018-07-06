@@ -13,19 +13,19 @@ Development Process for listing student
     
 2.	Create StudentDAO.java (Data access object) interface that helps talk to the database 
 
-        a.	Create StudentDAOImpl.java
+        a.Create StudentDAOImpl.java
 
-            i.	Get the current hibernate session
+            i. Get the current hibernate session
 
-            ii.	Create a query and sort by last name 
+            ii. Create a query and sort by last name 
 
-            iii.	Execute query and get the list of students
+            iii. Execute query and get the list of students
 
             iv.	Return list
 
 3.	Create StudentService.java
 
-        a.	Create StudentServiceImpl.java interface
+        a.Create StudentServiceImpl.java interface
 
             i.	Inject the student dao
 
